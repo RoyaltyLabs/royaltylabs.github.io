@@ -4,8 +4,7 @@
 
 [Royals' Development Website](https://frvrroyals.github.io)
 
-> [!IMPORTANT]
-> To report any issues, please open a issue via. GitHub in this repository, alternatively, you can send an email to royalsdev@outlook.com.
+To report any issues, please open a issue via. GitHub in this repository, alternatively, you can send an email to royalsdev@outlook.com.
 
 > [!TIP]
 > Join my Discord Server [here](https://discord.gg/ywwvZ66QbX) for mod discussions & support.
