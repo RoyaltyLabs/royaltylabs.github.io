@@ -7,7 +7,7 @@
 > [!TIP]
 > Join my Discord Server [here](https://discord.gg/ywwvZ66QbX) for mod discussions & support.
 
-To report any issues, please open a issue via. GitHub in this repository, alternatively, you can send a report to the email address below.
+To report any issues or bugs, please open an issue via. GitHub in this repository, alternatively, you can send a report to the email address below.
 
 [royalsdev@outlook.com](mailto:royalsdev@outlook.com?subject=Royals%E2%80%99%20Development%20Website%2FGitHub%20Report)
 
