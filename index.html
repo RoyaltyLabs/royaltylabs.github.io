@@ -2,7 +2,7 @@
 
 <!-- © Royals’ Development -->
 
-<!-- Site Home / Index Page -->
+<!-- Home / Index Page -->
 
 <html>
 	
@@ -37,25 +37,28 @@
 				color: #ffffff;
 			}
 
-			#footer {
-				text-align: center;
-				padding-bottom: 1rem;
+			nav .support {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 2rem;
+				margin-top: 1rem;
 			}
 
-			#footer small {
-				display: block;
-				margin-top: 0.3rem;
-				font-size: 0.75em;
-			}
-
-			#footer small a {
-				text-decoration: underline;
+			nav .support a {
+				font-size: 0.8em;
+				text-decoration: none;
 				color: inherit;
 				transition: color 0.3s ease;
 			}
 
-			#footer small a:hover {
+			nav .support a:hover {
 				color: #ffffff;
+			}
+
+			#footer {
+				text-align: center;
+				padding-bottom: 1rem;
 			}
 
 			#header h1 {
@@ -80,6 +83,10 @@
 				<li><a href="guides.html">Guides</a></li>
 				<li><a href="modpacks.html">Modpacks</a></li>
 			</ul>
+			<div class="support">
+				<a href="https://discord.gg/ywwvZ66QbX">Discord Server</a>
+				<a href="support.html">Support / Donate</a>
+			</div>
 		</nav>
 	</header>
 				
