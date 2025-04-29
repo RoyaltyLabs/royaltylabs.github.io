@@ -1,4 +1,4 @@
-# Royals Development Website License
+# License for Royals' Development (frvrroyals.github.io)
 
 All content, including but not limited to releases, code, files, modifications, assets, and documentation uploaded to or released through this website is the intellectual property of Royals’ Development, unless said otherwise by a license for an individual project or release.
 
