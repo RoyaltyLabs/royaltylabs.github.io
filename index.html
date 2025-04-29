@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<!-- Royals' Development Home Page -->
+<!-- Royals' Development Home / Index Page -->
 
 <html>
 	
@@ -10,6 +10,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			nav ul {
+				display: flex;
+				justify-content: center;
+				gap: 2rem;
+				padding: 0;
+				list-style: none;
+				margin-top: 2rem;
+				flex-wrap: wrap;
+			}
+
+			nav ul li a {
+				text-decoration: none;
+				color: inherit;
+				font-weight: 600;
+				transition: color 0.3s ease;
+			}
+
+			nav ul li a:hover {
+				color: #ffffff;
+			}
+
+			#footer small {
+				display: block;
+				margin-top: 0.5rem;
+				font-size: 0.8em;
+				text-align: center;
+			}
+		</style>
 	</head>
 	
 	<body class="is-preload">
@@ -23,7 +52,7 @@
 	<header id="header">
 		<h1>Royals' Development</h1>
 		<nav>
-			<ul style="list-style: none; padding: 0;">
+			<ul>
 				<li><a href="releases.html">Releases</a></li>
 				<li><a href="modpacks.html">Modpacks</a></li>
 				<li><a href="modding-guides.html">Modding Guides</a></li>
@@ -36,10 +65,8 @@
 <!-- Footer -->
 					
 	<footer id="footer">
-		<span class="copyright">
-			&copy; Royals Development 2025, Powered by GitHub Pages. 
-			<a href="https://github.com/FrvrRoyals/frvrroyals.github.io" style="color: inherit; text-decoration: underline;">GitHub Repository</a>
-		</span>
+		<span class="copyright">&copy; Royals Development 2025, Powered by GitHub Pages.</span>
+		<small><a href="https://github.com/FrvrRoyals/frvrroyals.github.io" style="color: inherit; text-decoration: underline;">GitHub Repository</a></small>
 	</footer>
 
 		</div>
