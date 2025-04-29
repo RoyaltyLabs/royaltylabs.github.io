@@ -10,3 +10,5 @@ To report any issues, please open a issue via. GitHub in this repository, altern
 
 > [!TIP]
 > Join my Discord Server [here](https://discord.gg/ywwvZ66QbX) for mod discussions & support.
+
+[© Royals’ Development 2025](LICENSE.md/)
