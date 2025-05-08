@@ -8,4 +8,4 @@
 
 To report any issues or bugs, please open an issue via. GitHub in this repository.
 
-![License](https://img.shields.io/badge/%C2%A9%20Royals%E2%80%99%20Development%202025-%23252525?style=flat-square&link=LICENSE.md%2F)
+[© Royals’ Development 2025](LICENSE.md/)
