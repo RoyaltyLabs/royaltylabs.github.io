@@ -6,10 +6,10 @@
 
 **[Royals' Development Website](https://frvrroyals.github.io)**
 
-![Discord](https://img.shields.io/badge/Royals%E2%80%99%20Development%20Discord%20Server-darkblue?style=flat&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FywwvZ66QbX)
-
 To report any issues or bugs, please open an issue via. GitHub in this repository, alternatively, you can send a report to the email address below.
 
 [royalsdev@outlook.com](mailto:royalsdev@outlook.com?subject=Royals%E2%80%99%20Development%20Website%2FGitHub%20Report)
+
+![Discord](https://img.shields.io/badge/Royals%E2%80%99%20Development%20Discord%20Server-darkblue?style=flat&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FywwvZ66QbX)
 
 [© Royals’ Development 2025](LICENSE.md/)
