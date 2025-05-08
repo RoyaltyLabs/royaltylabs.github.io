@@ -4,10 +4,9 @@
 
 **This is the repository for my website that hosts all of my GitHub projects, mod & tool releases, along with all of my links to social media and other sites where I release stuff & as well as any other interesting things I work on.**
 
-**[Royals' Development Website](https://frvrroyals.github.io)**
+![Website](https://img.shields.io/badge/Royals%E2%80%99%20Development%20Website-lightgrey?style=flat&logo=github&logoColor=white&link=https%3A%2F%2Ffrvrroyals.github.io)
 
-> [!TIP]
-> Join my Discord Server [here](https://discord.gg/ywwvZ66QbX) for mod discussions & support.
+![Discord](https://img.shields.io/badge/Royals%E2%80%99%20Development%20Discord%20Server-darkblue?style=flat&logo=discord&logoColor=white&link=https%3A%2F%2Fdiscord.gg%2FywwvZ66QbX)
 
 To report any issues or bugs, please open an issue via. GitHub in this repository, alternatively, you can send a report to the email address below.
 
