@@ -1,6 +1,6 @@
 # Royals' Development GitHub Website
 
-https://img.shields.io/badge/Status-Online-green
+![Online Status](https://img.shields.io/badge/Status-Online-green)
 
 **This is the repository for my website that hosts all of my GitHub projects, mod & tool releases, along with all of my links to social media and other sites where I release stuff & as well as any other interesting things I work on.**
 
