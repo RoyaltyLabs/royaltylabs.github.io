@@ -3,7 +3,6 @@
 <html lang="en">
 
 <head>
-  
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Royals' Sandbox - Loading Screen</title>
@@ -24,6 +23,7 @@
       color: #fff;
       font-family: 'Source Code Pro', monospace;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
     }
@@ -32,22 +32,50 @@
       font-size: 3vw;
       font-weight: 700;
       text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .discord-button {
+      display: inline-block;
+      background-color: #fff;
+      border-radius: 50%;
+      padding: 10px;
+      transition: transform 0.2s ease;
+    }
+
+    .discord-button:hover {
+      transform: scale(1.1);
+    }
+
+    .discord-button img {
+      width: 40px;
+      height: 40px;
+      display: block;
     }
 
     @media (max-width: 768px) {
       h1 {
         font-size: 6vw;
       }
-    }
 
+      .discord-button img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  
 </style>
 
 </head>
+
   <body>
-    
-    <h1>Royals' Sandbox</h1>
   
-  </body>
+  <h1>Royals' Sandbox</h1>
+  
+  <a class="discord-button" href="https://discord.com/invite/ywwvZ66QbX" target="_blank" rel="noopener noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/edent/SuperTinyIcons/images/svg/discord.svg" alt="Join our Discord">
+  </a>
+
+</body>
 
 </html>
-
