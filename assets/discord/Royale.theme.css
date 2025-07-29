@@ -1,15 +1,34 @@
+/**
+ * @name Royale
+ * @author Royals
+ * @description Royals' Custom Discord Theme - Based on SoftX
+ * @version 1.0.0
+ * @invite ywwvZ66QbX
+ * @authorId 256618053490573315
+ * @source https://github.com/RoyalsDevelopment/royalsdevelopment.github.io/blob/master/assets/discord/Royale.theme.css
+ */
+
 @import url("https://discordstyles.github.io/RadialStatus/RadialStatus.css");
 
 :root {
-  --rs-small-spacing: 2px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
-  --rs-medium-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
-  --rs-large-spacing: 4px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout fullscreen) | Default: 4px */
-  --rs-small-width: 1.5px; /* Ring width (follows same sizing as above) | Default: 1.5px */
-  --rs-medium-width: 2px; /* Default: 2px */
-  --rs-large-width: 2px; /* Default: 2px */
+
+  --font: "FiraCode Nerd Font Ret"; /* Default: 'Inter' */
+  --accent: rgb(180, 180, 180); /* Colour used around the app. | Any valid CSS unit. | Default: hsl(164 100% 45%) */
+  --accent-text: hsl(0 0 0%); /* Colour used on solid or high contrast accent backgrounds. | hsl(0 0 10%) */
+  --glow-intensity: 0; /* Intensity of the glow used around the app. | Set to 0 to disable the glow. | Decimals allowed | Default: 1 */
+  --members-width: 290px; /* Width of the members list. | Default: 280px */
+  --guilds-width: 95px; /* Width of the server list. | Default: 105px */
+  --server-icon-size: 48; /* Size of the servers inside the server list. | Default: 46px */
+  --chat-avatar-size: 32px; /* Size of the chat avatars. | Default: 32px */
+  --opacity: 0.85; /* Opacity of overall app. | Default: .85 */
+  --rs-small-spacing: 0px; /* Spacing between profile image and outer ring on small icons (e.g. member list) | Default: 2px */
+  --rs-medium-spacing: 2px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout) | Default: 4px */
+  --rs-large-spacing: 2px; /* Spacing between profile image and outer ring on medium icons (e.g. user popout fullscreen) | Default: 4px */
+  --rs-small-width: 1.8px; /* Ring width (follows same sizing as above) | Default: 1.5px */
+  --rs-medium-width: 2.2px; /* Default: 2px */
+  --rs-large-width: 2.2px; /* Default: 2px */
   --rs-avatar-shape: var(--avatar-roundness, 50%); /* Border-radius for profile image | Default: 50% */
-  
-  /* Customizable colors */
+
   --rs-online-color: #43b581; /* Default: #43b581 */
   --rs-idle-color: #faa61a; /* Default: #faa61a */
   --rs-dnd-color: #f04747; /* Default: #f04747 */
@@ -17,7 +36,57 @@
   --rs-streaming-color: #643da7; /* Default: #643da7 */
   --rs-invisible-color: #747f8d; /* Default: #747f8d */
   --rs-phone-color: var(--rs-online-color); /* Color of the phone for mobile users | Default: var(--rs-online-color) */
-  --rs-phone-visible: block; /* Visibility of the phone for mobile users | Default: block */
+  --rs-phone-visible: none; /* Visibility of the phone for mobile users | Default: block */
+
+  --theme-version: "1.0.0";
+  --transition: 0.15s ease;
+  --chat-glow-intensity: var(--glow-intensity);
+  --channel-glow-intensity: var(--glow-intensity);
+  --members-glow-intensity: var(--glow-intensity);
+  --input-glow-intensity: var(--glow-intensity);
+  --server-glow-intensity: var(--glow-intensity);
+  --talking-bar: rgb(var(--accent));
+  --talking-glow: rgb(var(--accent));
+  --foreground-blur: 20px;
+  --foreground-brightness: 1;
+  --shadow: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
+  --shadow-lg: 0 20px 30px hsl(0 0% 0% / 0.1), 0 10px 20px hsl(0 0% 0% / 0.1);
+  --bg-border: hsl(0 0% 5% / 0.75);
+  --bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));
+  --bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.075));
+  --bg-tertiary: hsl(0 0% 10% / calc(var(--opacity) + 0.125));
+  --fg-border: hsl(0 0% 100% / 0.15);
+  --fg-primary: hsl(0 0% 100% / 0.075);
+  --fg-secondary: hsl(0 0% 100% / 0.045);
+  --toolbar-height: 64px;
+  --chat-bubble-bg: hsl(0 0% 100% / 0.04);
+  --chat-bubble-padding: 10px 14px;
+  --chat-bubble-display: inline-block;
+  --channel-unread-colour: hsl(0 0% 100%);
+  --channel-pill-width: 3px;
+  --channel-pill-height: 35%;
+  --textbox-background: hsl(0 0% 7% / 0.7);
+  --textbox-border: hsl(0 0% 100% / 0.05);
+  --textbox-hover-border: hsl(0 0% 100% / 0.1);
+  --chat-bottom-spacing: 0px;
+  --server-size: calc(var(--server-icon-size) * 1px);
+  --custom-guild-list-width: var(--guilds-width);
+  --custom-member-list-width: var(--members-width);
+  --custom-message-avatar-size: var(--chat-avatar-size);
+  --custom-message-margin-horizontal: var(--space-xxl);
+  --font-primary: var(--font, "FiraCode Nerd Font Ret");
+  --font-display: var(--font, "FiraCode Nerd Font Ret");
+  --background-mentioned: var(--accent);
+  --background-message-hover: hsl(0 0% 100% / 0.02) !important;
+  --guildbar-folder-size: var(--server-size);
+
+  --server-unread-colour: rgb(255, 255, 255);
+  --server-hover-colour: rgb(255, 255, 255);
+  --server-selected-colour: var(--accent, rgb(50, 50, 50));
+  --server-spacing: 16px;
+  --server-glow-intensity: var(--glow-intensity, 1);
+  --server-ring-offset: 6px;
+
 }
 
 .wrapper__44b0c[aria-label*=Online i], .wrapper__44b0c[aria-label*=online i], .wrapper__44b0c[aria-label*=Conectado i], .wrapper__44b0c[aria-label*="En línea con móvil" i], .wrapper__44b0c[aria-label*="En ligne" i], .wrapper__44b0c[aria-label*="Na mreži" i],
@@ -61,15 +130,6 @@
 }
 #app-mount .avatarWrapper .pointerEvents-9SZWKj[width="30"] {
   width: calc(100% - 9px) !important;
-}
-
-:root {
-  --server-unread-colour: rgb(255, 255, 255);
-  --server-hover-colour: rgb(255, 255, 255);
-  --server-selected-colour: var(--accent, rgb(50, 50, 50));
-  --server-spacing: 16px;
-  --server-glow-intensity: var(--glow-intensity, 1);
-  --server-ring-offset: 6px;
 }
 
 #app-mount .folderGroup__48112 {
@@ -314,51 +374,6 @@
 
 .pill__5bc7e {
   display: none;
-}
-
-:root {
-  --softx-version: "2.0.0-alpha";
-  --transition: 0.15s ease;
-  --chat-glow-intensity: var(--glow-intensity);
-  --channel-glow-intensity: var(--glow-intensity);
-  --members-glow-intensity: var(--glow-intensity);
-  --input-glow-intensity: var(--glow-intensity);
-  --server-glow-intensity: var(--glow-intensity);
-  --talking-bar: rgb(var(--accent));
-  --talking-glow: rgb(var(--accent));
-  --foreground-blur: 20px;
-  --foreground-brightness: 1;
-  --shadow: 0 4px 6px -1px hsl(0 0% 0% / 0.1), 0 2px 4px -1px hsl(0 0% 0% / 0.06);
-  --shadow-lg: 0 20px 30px hsl(0 0% 0% / 0.1), 0 10px 20px hsl(0 0% 0% / 0.1);
-  --bg-border: hsl(0 0% 5% / 0.75);
-  --bg-primary: hsl(0 0% 10% / calc(var(--opacity) + 0.05));
-  --bg-secondary: hsl(0 0% 10% / calc(var(--opacity) + 0.075));
-  --bg-tertiary: hsl(0 0% 10% / calc(var(--opacity) + 0.125));
-  --fg-border: hsl(0 0% 100% / 0.15);
-  --fg-primary: hsl(0 0% 100% / 0.075);
-  --fg-secondary: hsl(0 0% 100% / 0.045);
-  --toolbar-height: 64px;
-  --chat-bubble-bg: hsl(0 0% 100% / 0.04);
-  --chat-bubble-padding: 10px 14px;
-  --chat-bubble-display: inline-block;
-  --channel-unread-colour: hsl(0 0% 100%);
-  --channel-pill-width: 3px;
-  --channel-pill-height: 35%;
-  --textbox-background: hsl(0 0% 7% / 0.7);
-  --textbox-border: hsl(0 0% 100% / 0.05);
-  --textbox-hover-border: hsl(0 0% 100% / 0.1);
-  --chat-bottom-spacing: 16px;
-  --server-size: calc(var(--server-icon-size) * 1px);
-  --custom-guild-list-width: var(--guilds-width);
-  --custom-member-list-width: var(--members-width);
-  --custom-message-avatar-size: var(--chat-avatar-size);
-  --custom-message-margin-horizontal: var(--space-xxl);
-  --text-link: var(--accent) !important;
-  --font-primary: var(--font, "Whitney");
-  --font-display: var(--font, "Whitney");
-  --background-mentioned: var(--accent);
-  --background-message-hover: hsl(0 0% 100% / 0.02) !important;
-  --guildbar-folder-size: var(--server-size);
 }
 
 #app-mount .bar_c38106 {
