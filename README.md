@@ -11,4 +11,4 @@
 
 **Mod Note:** For reporting any issues or bugs, please open an issue via. GitHub in this repository.
 
-[© Royalty Labs](LICENSE.md/)
+**[© Royalty Labs](LICENSE.md/)**
