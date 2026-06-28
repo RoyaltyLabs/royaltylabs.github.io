@@ -6,4 +6,4 @@ Unauthorized copying, redistribution, rehosting, or use of any material—whethe
 
 By accessing or downloading content from this site, you agree not to replicate or distribute any material without explicit written permission from Royals’ Development.
 
-**© Royals’ Development 2025**
+**© Royals’ Development**
